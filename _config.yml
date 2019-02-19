@@ -19,27 +19,28 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "Title"
+          label: "标题"
           value: ""
       - name: "splash"
         field:
           element: "text"
-          label: "Splash image"
+          label: "封面"
+          value: ""
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "描述"
           value: ""
       - name: "tags"
         field:
           element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
+          label: "标签"
+          placeholder: "选择标签"
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-            - name: "Pears"
-              value: "pears"
-            - name: "Mangos"
-              value: "mangos"
+            - name: "Multimedia"
+              value: "multimedia"
+            - name: "H5"
+              value: "h5"
     _posts/static:
       - name: "layout"
         field:
